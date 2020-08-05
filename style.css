@@ -5,7 +5,7 @@
 }
 
 body {
-  background: #224941 url('./img/bg.jpg') no-repeat center center/cover;
+  background: #224941 url('./img/bg2.jpg') no-repeat center center/cover;
   color: #fff;
   font-family: 'Montserrat', sans-serif;
   min-height: 100vh;
@@ -14,6 +14,14 @@ body {
   flex-direction: column;
   align-items: center;
   margin: 0;
+}
+
+a, .footer {
+    color: #010f1c;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: dotted 1px solid #010f1c;
 }
 
 .container {
